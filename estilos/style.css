@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: rgba(20, 2, 57, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-position: center;
+    font-size: 15pt;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.manha {
+    background-image: linear-gradient(to bottom, rgba(0, 168, 232, 0.8), rgba(0, 0, 0, 0.6));
+}
+
+.tarde {
+    background-image: linear-gradient(to bottom, rgba(247, 143, 0, 0.8), rgba(0, 0, 0, 0.6));
+}
+
+.noite {
+    background-image: linear-gradient(to bottom, rgba(114, 58, 181, 0.8), rgba(0, 0, 0, 0.6));
+}
+
+.madrugada {
+    background-image: linear-gradient(to bottom, rgba(16, 33, 165, 0.8), rgba(0, 0, 0, 0.6));
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icondia {
+    background-image: url('../imagens/manha.ico');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.bomdia {
+    background-image: url('../imagens/manha.ico');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.boatarde {
+    background-image: url('../imagens/tarde.ico');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.boanoite {
+    background-image: url('../imagens/noite.ico');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.boamadrugada {
+    background-image: url('../imagens/manha.ico');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.relogio {font-size: 3em;}
+
+.calendario {font-size: 0.8em;}
+
+footer {
+    margin-top: 3em;
+}
+
+.copy {
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.fa {
+    color: #fff;
+    font-size: 1em !important;
+    padding: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+.fa:hover {
+    transition: all 0.35s ease-out;
+}
+
+.fa-whatsapp:hover, .fa-whatsapp:focus {
+    background-color: #00b489;
+    border-color: #00b489;
+}
+
+.fa-instagram:hover, .fa-instagram:focus {
+    background-color: #c0007a;
+    border-color: #c0007a;
+}
+
+.fa-github:hover, .fa-github:focus {
+    background-color: #999999;
+    border-color: #999999;
+}
+
+.fa-twitter:hover, .fa-twitter:focus {
+    background-color: #08a0e9;
+    border-color: #08a0e9;
+}
+
