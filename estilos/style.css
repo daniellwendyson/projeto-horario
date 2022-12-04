@@ -127,9 +127,9 @@ footer {
     border-color: #00b489;
 }
 
-.fa-instagram:hover, .fa-instagram:focus {
-    background-color: #c0007a;
-    border-color: #c0007a;
+.fa-facebook:hover, .fa-facebook:focus {
+    background-color: #3B5998;
+    border-color: #3B5998;
 }
 
 .fa-github:hover, .fa-github:focus {
@@ -137,8 +137,8 @@ footer {
     border-color: #999999;
 }
 
-.fa-twitter:hover, .fa-twitter:focus {
-    background-color: #08a0e9;
-    border-color: #08a0e9;
+.fa-linkedin:hover, .fa-linkedin:focus {
+    background-color: #0E76A8;
+    border-color: #0E76A8;
 }
 
